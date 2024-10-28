@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="book">
+            <div class="left-page">
+                <div class="profile">
+                    <img src="./resources/myimage.jpg" alt="">
+                    <h1>Vahid Desai</h1>
+                    <h2>Front-End-Web-Developer</h2>
+                    <div class="social-media">
+                    <a href="mailto:v.r.desai@gmail.com"><i class='bx bxl-gmail' ></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100031085944900&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.linkedin.com/in/vahid-desai-250036311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin' ></i></i></a>
+                    <a href="https://www.instagram.com/v.r.desai997/profilecard/?igsh=MTZuYmg2YWMzaXp4YQ==" ><i class='bx bxl-instagram'></i></i></a>
+                    </div>
+                    
+                    <p><span class="h">H</span>ey there, I'm Vahid Desai a passionate Front-End-Web-Developer. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore sed totam explicabo, inventore debitis reprehenderit illo, qui expedita nemo fuga.</p>
+                    <div class="btn-box">
+                    <button class="btn cv_btn"><a href="./resources/Resume.pdf" download="./resources/Resume.pdf" style="text-decoration: none; color: inherit;" >Download CV</a></button>
+                    <button class="btn cnt_btn">Contact Me</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="right-page">
+                <!-- flip2 -->
+                <div class="empty"></div>
+                <div id="page3" class="">
+                    <div class="project page-front-sec">
+                        <h1>Latest Project</h1>
+                        <div class="img1">
+                            <img src="./resources/project-image.png" alt="">
+                        </div>
+                        <div class="pr-details">
+                            <h2 style="font-weight: bolder; display: inline;">Digi-Dine</h2>
+                            <a href="#">Live Preview <i class='bx bx-link-external'></i></a>
+                        </div>    
+                        <p>This is my latest project about Online Table Booking System. You can explore it by clicking the link above... </p>
+                        <span class="pg-no">3<i id="pg3" class='bx bx-chevron-right pg-right'></i></span>
+                    </div>
+                    <div id="page4" class="contact page-back-sec">
+                        <h1 style="text-align: center;">Contact Me!</h1>
+                        <form action="">
+                            <input type="text" placeholder="Full Name">
+                            <input type="email" placeholder="Email Address">
+                            <textarea name="" id="" placeholder="Your Message"></textarea>
+                            <button class="btn cv_btn btn2">Send Message</button>
+                        </form>
+                        <span class="pg-no">4<i id="pg4" class='bx bx-chevron-left pg-left'></i></span>
+                    </div>
+                </div>
+                <!-- here flip1 -->
+                <div id="page1" class="">
+                    <div class="education page-front"> 
+                        <h1>Education</h1>
+                        <div class="edu-box">
+                            <ul>
+                                 <li>
+                                    <i class='bx bxs-calendar'></i><p style="display:inline-block;"><strong>2021-2025</strong></p>
+                                    <div class="scl"><span>Bachelor Of Engineering</span>
+                                        <p>Persued Bachelor Degree in IT Engineering at SVMITCollege in GTU University.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class='bx bxs-calendar'></i><p style="display:inline-block;"><strong>2019-2021</strong></p>
+                                    <div class="scl"><span>12th Science</span>
+                                        <p>Passed out 12th science with 70% at The Dayadara Higher Secondary School.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <span class="pg-no">1<i id="pg1" class='bx bx-chevron-right pg-right'></i></span>
+                    </div>
+                    <div class="skills page-back">
+                        <h1 style="text-align: center;">Skills</h1>
+                        <div class="skill-box">
+                            <h2>Front-End</h2>
+                            <ul>
+                                <li><i class='bx bxl-html5'></i><p>HTML</p></li>
+                                <li><i class='bx bxl-css3' ></i><p>CSS</p></li>
+                                <li><i class='bx bxl-javascript' ></i><p>JS</p></li>
+                            </ul>
+                            <h2>Back-End</h2>
+                            <ul>
+                                <li><i class='bx bxl-java' ></i><p>JAVA</p></li>
+                                <li><i class='bx bxl-php' ></i><p>PHP</p></li>
+                            </ul>
+                            <h2>UI/UX Design</h2>
+                            <ul>
+                                <li><i class='bx bxl-figma'></i><p>Figma</p></li>
+                            </ul>
+                        </div>
+                        <span class="pg-no">2<i id="pg2" class='bx bx-chevron-left pg-left'></i></span>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
