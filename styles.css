@@ -487,3 +487,23 @@ body {
     position: absolute;
     background-color: #b2ac88;
 }
+
+
+.med {
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .wrapper {
+        display: none;
+    }
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .med {
+        display: block;
+        text-align: center;
+    }
+  }
