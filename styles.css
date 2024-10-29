@@ -302,7 +302,6 @@ body {
 }
 
 .skill-box ul i {
-    margin-top: 8px;
     color: var(--main-color);
     font-size: 3.5rem;
 }
