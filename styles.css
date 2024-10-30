@@ -41,6 +41,7 @@ body {
     /* background-color: var(--main-color); */
 }
 
+
 .left-page {
     border-left: 25px solid #b2ac88;
     border-top: 25px solid #b2ac88;
@@ -51,11 +52,12 @@ body {
     position: relative;
     height: 100%;
     width: 50%;
-/*     background-color: white; */
+    background-color: white;
     background-color: #b2ac88;
     transform: rotateY(180deg) skewY(10deg) translateY(25px);
     transform-origin: right;
 }
+
 
 .cover {
     animation: cov 3s linear forwards;
@@ -521,7 +523,6 @@ body {
     position: absolute;
     background-color: #b2ac88;
 }
-
 
 .med {
     display: none;
